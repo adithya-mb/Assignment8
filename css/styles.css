@@ -1,0 +1,231 @@
+/*
+Auther:Adithya MB
+Date:17/12/2021*/
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+.container1 {
+	color: #fff;
+	height: 60vh;
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-evenly;
+}
+
+.container1 h1{
+	font-size: 40px;
+}
+.container1 p{
+	font-size: 25px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+
+}
+.container1 a{
+	border:2px solid #00f;
+	text-decoration: none;
+	font-size: 25px;
+	border-radius: 4px;
+	color: #00f;
+	padding: 15px;
+}
+.container1 a:hover{
+	background-color: #00f;
+	color: #fff;
+}
+/*first section ended*/
+/*second section started*/
+.container2{
+	background-color: #fff;
+	height: 45vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+.container2 h1{
+	
+	padding: 40px;
+
+}
+.container2 p{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+/*second section ended*/
+/*third section started*/
+.container3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	background-color: #333;
+	height: 60vh;
+}
+.container3 .col{
+	background-color: #fff;
+	border:solid;
+	border-radius: 8px;
+	width:25%;
+	height: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-evenly;
+
+}
+.col img{
+	
+    width: 85%;
+    height: 60%;
+    border-radius: 8px;
+    
+}
+
+
+
+/*third section ended*/
+/*fifth section started*/
+.fifthblock{
+	height: 50vh;
+	display: flex;
+	
+
+}
+.fifthblock .subblock1{
+	background-color: #0D6EFD;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+.subblock1 p,.subblock2 p{
+	font-size: 20px;
+	padding: 20px;
+	
+}
+.subblock1 h1,.subblock2 h1{
+	font-size: 40px;
+}
+.fifthblock .subblock2{
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	width: 50%;
+	color: white;
+
+}
+/*fifth section ended*/
+/*media query*/
+@media only screen and (max-width: 600px) {
+	
+
+.container1 {
+	color: #fff;
+	height: auto;
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	padding: 20px;
+}
+.container1 h1{
+	font-size: 30px;
+}
+.container1 p{
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding: 30px;
+
+
+}
+.container2{
+	background-color: #fff;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	text-align: center;
+}
+.container2 h1{
+	
+	padding: 20px;
+	font-size: 28px;
+
+}
+.container2 p{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.container3{
+	background-color: #333;
+	height: 200vh;
+	display: flex;
+	justify-content: center;
+
+}
+.container3 .col{
+	background-color: #fff;
+	border:solid;
+	border-radius: 8px;
+	width:80%;
+	height: 30%;
+	text-align: center;
+	margin: 15px 0;
+}
+.col img{
+	
+    width: 85%;
+    height: 60%;
+    border-radius: 8px;
+    
+}
+.fifthblock{
+
+	display: block;
+	
+
+}
+.fifthblock .subblock1{
+	background-color: #0D6EFD;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 40vh;
+}
+.subblock1 p,.subblock2 p{
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.subblock1 h1,.subblock2 h1{
+	font-size: 40px;
+}
+.fifthblock .subblock2{
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	color: white;
+	height: 40vh;
+
+}
+}
